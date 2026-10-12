@@ -16,7 +16,7 @@ npm run build        # writes dist/ — deploy that folder as-is
 ```
 
 **Cloudflare Pages:** build command `npm run build`, output directory `dist`. No functions needed.
-Set your real domain in `SITE` at the top of `build.js` (used for canonical, hreflang, sitemap, robots).
+Set your real domain in `SITE` at the top of `build.js` (currently https://imgconvert.shah242312.workers.dev) (used for canonical, hreflang, sitemap, robots).
 
 ## Test
 

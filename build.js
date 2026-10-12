@@ -2,7 +2,7 @@
 import { rmSync, mkdirSync, cpSync, writeFileSync } from 'node:fs';
 import { pages } from './src/pages.js';
 
-export const SITE = 'https://imgconvert.pages.dev'; // change when you have a real domain
+export const SITE = 'https://imgconvert.shah242312.workers.dev'; // change when you have a real domain
 const OUT = 'dist';
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
